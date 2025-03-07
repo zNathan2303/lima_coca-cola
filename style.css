@@ -21,6 +21,19 @@ header, footer {
     padding: 0 20px;
 }
 
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
+    padding-left: 75px;
+}
+
+header span {
+    font-weight: 75px;
+}
+
 main  {
     flex-grow: 1;
     display: flex;
