@@ -39,6 +39,7 @@ main  {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #DA6062;
 }
 
 .background-logo {
