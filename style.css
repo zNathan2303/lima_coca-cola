@@ -59,7 +59,7 @@ main  {
     color: #FFFFFF;
     font-size: 2.5rem;
     width: 240px;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     text-align: end;
 }
 
@@ -102,5 +102,5 @@ footer div {
     footer {
         padding: 0px 25px;
     }
-    
+
 }
