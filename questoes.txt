@@ -32,14 +32,40 @@ Elas servem para definir os objetos que estarão na página, sejam caixas(como d
 
 9. O que são atributos em uma tag HTML e qual a sua função?
 
-Eles normalmente 
+Eles são caracteristicas especiais que podem ser atribuidas para as tags HTML, como por exemplo atribuir um nome para elas(id).
 
 10. O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+
+Ele é uma forma de atalho para agilizar o desenvolvimento de páginas, permitindo que uma grande quantidade de código (estrutura HTML) possa ser escrita de forma rápida (! + tecla tab).
+
 11. O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+
+Permite ajustar o tamanho e largura máxima de algum elemento, incluindo não só o tamanho dele, mas margens e outras configurações que possam acabar mexendo no tamanho total dele. Ele é usado no reset inicial pois permite padronizar todos os elementos de uma só vez.
+
 12. Por que é importante utilizar tags semânticas no HTML?
+
+Para melhorar o entendimento do código, permitindo identificar estruturas específicas e onde elas estão localizadas.
+
 13. O que são media queries no CSS e qual a sua função?
+
+Os media queries são formas de formatação da página que são ativadas quando, por exemplo, o tamanho da tela está sendo exibido. A sua função é ajustar a visualização do site independente do tamanho da tela em que está sendo exibido.
+
 14. Qual a função do GitHub Pages?
+
+Permitir a visualização do site sem a necessidade de baixar os arquivos.
+
 15. O que é o Flexbox no CSS e para que ele é utilizado?
+
+É uma forma de ajustar o display para deixar os elementos da página dinâmicos.
+
 16. Qual a diferença entre justify-content e align-items em um container Flexbox?
+
+O justify-content ajusta o conteúdo na horizontal, e o align-items ajusta na vertical. Ambos são assim no flex-derection padrão(row).
+
 17. Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+
+Ele faz com que o elemento se expanda o máximo possível, podendo atribuir uma "força" para a expansão.
+
 18. Explique a diferença entre flex-direction: column; e flex-direction: row;.
+
+O flex-direction: column faz com que os elementos se alinhem de forma vertical, de cima para baixo. Já o flex-direction: row é a forma padrão em que vêm, em que os elementos se alinham de forma horizontal, da esquerda para direita(forma padrão).
