@@ -40,15 +40,21 @@ main div {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.content-image {
-    position: absolute;
-    z-index: 2;
+.content-text {
     grid-area: a1;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px black;
+    width: 240px;
+    text-align: end;
+    transform: translateX(-20%);
 }
 
 .content-image {
     grid-area: a2;
     place-self: center center;
+    position: absolute;
+    z-index: 1;
 }
 
 main div div {
@@ -61,15 +67,7 @@ main div div {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-
-.content-text {
-    color: #ffffff;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 2px black;
-    width: 240px;
-    text-align: end;
-    transform: translateX(-20%);
+    max-width: 100%;
 }
 
 .content-image {
@@ -107,10 +105,22 @@ footer #mapa {
         padding-left: 25px;
     }
 
+    main div {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "a1"
+        "a2"
+        ;
+        grid-template-rows: 40vh 1fr;
+        grid-template-columns: none;
+    }
+
     .content-text {
         font-size: 1rem;
-        width: 800px;
-        transform: translateY();
+        width: 100px;
+        text-align: center;
+        top: 80px;
     }
 
     .content-image {
