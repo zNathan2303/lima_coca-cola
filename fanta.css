@@ -27,6 +27,14 @@ header {
     padding-left: 75px;
 }
 
+header span {
+    font-weight: 75px;
+}
+
+header a {
+    font-weight: 75px;
+}
+
 main {
     display: grid;
     place-content: center;

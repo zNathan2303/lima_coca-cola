@@ -40,6 +40,10 @@ header span {
     font-weight: 75px;
 }
 
+header a {
+    font-weight: 75px;
+}
+
 main  {
     flex-grow: 1;
     display: flex;
